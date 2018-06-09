@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic-Tac-Toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+  <div id="reload"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+  <div class="outerWrapper">
+    <header>
+      <div class="choose">
+        <span id="output"><p>Choose your team:</p></span>
+        <div class="teamPicker"><span id='x'><i class="fa fa-empire" aria-hidden="true"></i></span><span id="o"><i class="fa fa-rebel" aria-hidden="true"></i></span></div>
+      </div>
+    </header>
+    <div class="innerWrapper">
+      <div class="row">
+        <div class="square notPickedYet"></div>
+        <div class="square notPickedYet"></div>
+        <div class="square notPickedYet"></div>
+      </div>
+      <div class="row">
+        <div class="square notPickedYet"></div>
+        <div class="square notPickedYet"></div>
+        <div class="square notPickedYet"></div>
+      </div>
+      <div class="row">
+        <div class="square notPickedYet"></div>
+        <div class="square notPickedYet"></div>
+        <div class="square notPickedYet"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="messageWrapper">
+    <span id="message"></span>
+    <span id="dismissWrapper">
+      <button type="button" name="dismiss" id="dismissBtn">Next Round</button>
+    </span>
+  </div>
+
+</body>
+<script type="text/javascript" src="js/script.js">
+
+</script>
+<script src="https://use.fontawesome.com/f342a15139.js"></script>
+
+</html>
